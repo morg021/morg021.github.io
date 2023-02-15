@@ -4,11 +4,32 @@ body {
 }
 
 header, footer {
-    background-color: aqua;
+    background-color: rgb(183, 234, 234);
 }
+
+
 .highlight {
     color:brown
 }
+
+.navbar {
+    list-style-type: none;
+    text-decoration: none;
+    background-color:rgb(216, 202, 184);
+    border:0
+    }
+
+   .navbar :hover {
+        background-color: rgb(219, 219, 157); 
+    }
+ 
+
+ a { 
+    text-decoration: none;
+
+    }
+
+    
 
 #my-image {
     
@@ -16,20 +37,12 @@ header, footer {
      
     }
 
-    .navbar {
-        list-style-type: none;
-        text-decoration: none;
-
-
-       }
-
-       .link { 
-        text-decoration: none;
-        background-color: azure; border: 4;
-        }
-
-        .standard-list {
+    .standard-list {
             list-style-type: square;
         }
-         
         
+         
+     ul :nth-child(odd){
+            background: beige
+            
+        }
