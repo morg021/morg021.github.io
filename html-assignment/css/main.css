@@ -1,0 +1,35 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+header, footer {
+    background-color: aqua;
+}
+.highlight {
+    color:brown
+}
+
+#my-image {
+    
+    box-shadow: 0 0 2px 1px ; 
+     
+    }
+
+    .navbar {
+        list-style-type: none;
+        text-decoration: none;
+
+
+       }
+
+       .link { 
+        text-decoration: none;
+        background-color: azure; border: 4;
+        }
+
+        .standard-list {
+            list-style-type: square;
+        }
+         
+        
