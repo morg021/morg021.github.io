@@ -1,3 +1,4 @@
+/* this is a css comment*/
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
@@ -15,8 +16,8 @@ header, footer {
 .navbar {
     list-style-type: none;
     text-decoration: none;
-    background-color: none;
-    border: none
+    background-color: rgb(250, 245, 254);
+    border: 3px;
     }
 
    .navbar :hover {
