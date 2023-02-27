@@ -1,27 +1,29 @@
 
 body {
     background-color: #aad4cf;
-    padding: 15px;
+    /* padding: 15px; */
     
         font-family:'Times New Roman', Times, serif;
 }
 
-.display li  {
-display: inline-block;
-    
-    /* height: 10px;     */
-    border-right: 0.1px solid black;
-}
-   
 
-.wrapper {
+
+.display li  { 
+display: inline-block;
+ height: 5px;    
+     border-right: 0.1px solid black;  
+     padding-left: 100px;
+    
+
+    
+}
+ 
+ .wrapper {
     width: 55%;
     background-color: #abdfbd;
     margin: auto;
-    padding: 15px; 
-    /* height: 100px; */
-    
-   
+      padding: 10px;    
+     padding: auto;
     
 }
 
@@ -33,31 +35,31 @@ h1 {
     text-align: center;
 }
 
-
 .container { 
    width:100%;
    margin: 0 auto;
    padding-left: 2px;
-   padding-right: 6px;
-  
+   padding-right: 16px;
+ 
 }
 
 
 div img { 
     width: 40%;
-    height: 320px;
+    height: 340px;
     float: left;
     padding: 6px;
 }
 
 header img {
-    /* float: left;  */
     width: 100%;
     height: 320px;
      padding: 0 2px 0 0;
- }
+}
 
- #fullname { 
+
+
+ #fullname #email { 
      width: 98%; 
     border-radius: 1px;
     /* box-sizing: border-box; */
@@ -65,16 +67,6 @@ header img {
     border: 1px solid #ccc;
   }
 
-
-   #email { 
-    width: 98%; 
-   border-radius: 1px;
-   /* box-sizing: border-box; */
-   padding: 2px;
-   border: 1px solid #ccc;
- }
-  
- 
    #message { 
     width: 98%;
     height: 70px;
@@ -85,14 +77,14 @@ header img {
     
   }
 
+
   .border {
-    width: 100%;
-    height: 252px;  
-    padding: 4px;
+    width: 98%;
+    height: 270px;  
+    padding: 4px; 
     border: 1px solid #262525;
+   
   }
-
-
 
 
 footer  {
