@@ -12,30 +12,26 @@
 
 <body>
    
+    <header>
+        <img src="images/lone-starfish-wide.jpg" alt="image of wide starfish"/>
+        <h1>Lone Starfish</h1>
+    </header>
+
+    <nav class="navbar">
+        <ul id="list">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#story">STORY</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+
     <div class="wrapper">
 
-        <header>
-            <img src="images/lone-starfish-wide.jpg" alt="image of wide starfish"/>
-            <h1>Lone Starfish</h1>
-        </header>
-        <nav class="display">
-            <ul>
-                <li href="#">HOME</li>
-                <li href="#">STORY</li>
-                <li href="#">CONTACT</li>
-            </ul>
-    </nav>
-        
-           
-    </section>
-
-   
-        
     <article >
         
    
         <div class="container">
-            <h2>Life of a Starfish</h2>
+            <h2 id="story">Life of a Starfish</h2>
         
         <img src="images/lone-starfish.jpg" alt="image of starfish"/>
         
@@ -82,24 +78,24 @@
     
 
    
-        <h4>Contact to learn more</h4>
+        <h4 id="contact">Contact to learn more</h4>
 
         
             <div class="border">
             
-            
+                
         <form action="thanks" method="post">
-            <label for="name">Your Name</label><br>
+            <label for="name">Your Name</label>
             <input id="fullname" type="text" value=""> 
           </form>
-
+          <br>
           <form action="thanks" method="post">
-            <label for="email-add">Your Email</label><br>
+            <label for="email-add">Your Email</label>
             <input id="email" type="text" value="">
           </form>
-
+          <br>
           <form action="thanks" method="post">
-            <label for="message">Your Message</label><br>
+            <label for="message">Your Message</label>
             <textarea id="message"></textarea>
           
           
@@ -118,8 +114,6 @@
    
    <button value="send">Send</button><br>
    </div>
-
-
 
 
 
