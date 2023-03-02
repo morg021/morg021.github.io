@@ -1,29 +1,51 @@
+/* Css Reset */
+ul{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
 
 body {
     background-color: #aad4cf;
-    /* padding: 15px; */
-    
-        font-family:'Times New Roman', Times, serif;
+    font-family:'Times New Roman', Times, serif;
 }
 
-
-
-.display li  { 
-display: inline-block;
- height: 5px;    
-     border-right: 0.1px solid black;  
-     padding-left: 100px;
-    
-
-    
+.navbar {
+    width: calc(55% + 20px);
+    margin: auto;
+    background-color: #abdfbd;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
- 
+
+.navbar li {  
+    display: inline-block; 
+ height: 10px;      
+     /* text-decoration: none;  */
+     border-right: 1px solid black; 
+     /* padding: 10px 10px; */
+     width: 32%;
+}
+
+.navbar li:last-child {
+    border-right: none;
+}
+
+#list, a { 
+    text-decoration: none;
+    text-align: center; 
+    /* margin: auto; */
+    
+     }
+    
+
+ /* the wrapper is outside of the header and navbar. I used the wrapper for spacing around the main content */
  .wrapper {
     width: 55%;
     background-color: #abdfbd;
     margin: auto;
       padding: 10px;    
-     padding: auto;
+     /* padding: auto; */
     
 }
 
@@ -43,7 +65,8 @@ h1 {
  
 }
 
-
+/* this is the image in a container. I used the float to place the image on the left and paragraph on the right so as to have the 
+content wrap the image */
 div img { 
     width: 40%;
     height: 340px;
@@ -51,22 +74,31 @@ div img {
     padding: 6px;
 }
 
+header {
+    width: calc(55% + 20px);
+    margin: auto;
+    display: flex;
+}
+
 header img {
-    width: 100%;
-    height: 320px;
-     padding: 0 2px 0 0;
+   width: 100%;
+    height: 320px; 
+     padding: 0 2px 0 0; 
+     
+     
 }
 
 
 
- #fullname #email { 
-     width: 98%; 
+#fullname, #email { 
+    width: 98%; 
     border-radius: 1px;
     /* box-sizing: border-box; */
     padding: 2px;
     border: 1px solid #ccc;
   }
 
+  
    #message { 
     width: 98%;
     height: 70px;
@@ -80,7 +112,7 @@ header img {
 
   .border {
     width: 98%;
-    height: 270px;  
+    height: 320px;  
     padding: 4px; 
     border: 1px solid #262525;
    
