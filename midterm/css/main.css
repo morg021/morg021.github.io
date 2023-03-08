@@ -1,4 +1,4 @@
-/* Css Reset */
+/* css Reset */
 ul{
     margin-block-start: 0em;
     margin-block-end: 0em;
@@ -29,12 +29,14 @@ body {
 
 .navbar li:last-child {
     border-right: none;
+   
 }
 
 #list, a { 
     text-decoration: none;
     text-align: center; 
-    /* margin: auto; */
+  
+   
     
      }
     
@@ -93,7 +95,6 @@ header img {
 #fullname, #email { 
     width: 98%; 
     border-radius: 1px;
-    /* box-sizing: border-box; */
     padding: 2px;
     border: 1px solid #ccc;
   }
@@ -103,7 +104,6 @@ header img {
     width: 98%;
     height: 70px;
     border-radius: 1px;
-    /* box-sizing: border-box; */
     padding: 2px;
     border: 1px solid #ccc;
     
