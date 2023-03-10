@@ -4,10 +4,9 @@ ul{
     margin-block-end: 0em;
 }
 
-
 body {
     background-color: #aad4cf;
-    font-family:'Times New Roman', Times, serif;
+    font: 1em sans-serif;
 }
 
 .navbar {
@@ -20,25 +19,19 @@ body {
 
 .navbar li {  
     display: inline-block; 
- height: 10px;      
-     /* text-decoration: none;  */
+    height: 10px;      
      border-right: 1px solid black; 
-     /* padding: 10px 10px; */
      width: 32%;
 }
 
 .navbar li:last-child {
     border-right: none;
-   
-}
+   }
 
-#list, a { 
+ #list, a {  
     text-decoration: none;
     text-align: center; 
-  
-   
-    
-     }
+   }
     
 
  /* the wrapper is outside of the header and navbar. I used the wrapper for spacing around the main content */
@@ -47,33 +40,29 @@ body {
     background-color: #abdfbd;
     margin: auto;
       padding: 10px;    
-     /* padding: auto; */
-    
-}
+       }
 
 h1 {
     position: absolute;
-    top: 200px;
+    top: 160px;
      width: 55%; 
     color: white;
     text-align: center;
+    font-size: 3em;
 }
 
-.container { 
-   width:100%;
-   margin: 0 auto;
-   padding-left: 2px;
-   padding-right: 16px;
- 
-}
+ .container { 
+   width: auto;
+   margin: 0 auto; 
+   }
 
-/* this is the image in a container. I used the float to place the image on the left and paragraph on the right so as to have the 
+/* this is the image in a container. I used the float to place the image on the left, and paragraph on the right so as to have the 
 content wrap the image */
 div img { 
     width: 40%;
-    height: 340px;
+    height: 360px;
     float: left;
-    padding: 6px;
+    padding: 10px;
 }
 
 header {
@@ -87,37 +76,27 @@ header img {
     height: 320px; 
      padding: 0 2px 0 0; 
      
-     
-}
-
-
-
+    }
 #fullname, #email { 
     width: 98%; 
     border-radius: 1px;
     padding: 2px;
     border: 1px solid #ccc;
   }
-
-  
-   #message { 
+    #message { 
     width: 98%;
     height: 70px;
     border-radius: 1px;
     padding: 2px;
     border: 1px solid #ccc;
-    
-  }
+    }
 
-
-  .border {
+      .border {
     width: 98%;
     height: 320px;  
     padding: 4px; 
     border: 1px solid #262525;
-   
-  }
-
+    }
 
 footer  {
     text-align: right;
