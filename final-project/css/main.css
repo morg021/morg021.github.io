@@ -1,0 +1,10 @@
+
+
+ #list {
+    text-align: center;
+    list-style: none;
+  }
+  #list a {
+    text-decoration: none;
+    padding: 40px;
+  }
