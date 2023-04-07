@@ -4,73 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/main.css" rel="stylesheet">
     <title>Final-Project</title>
+    <script src="https://kit.fontawesome.com/43d5edc644.js" crossorigin="anonymous"></script> 
 </head>
 <body>
-    <!-- there will be a box-sixing in css housing the h1 image, nav bar and search form  -->
+    <!-- Adding a backgroung colour to the div in header section and change nav list colour  -->
     <div class="wrapper">
-        <header>
-            <div>
+        <header class="img">
+            <div class="fb">
                 <img src="images/logo.png" alt="image of a logo">
-                <nav>
-                    <ul>
-                        <li>Home</li>
-                        <li>About Us</li>
-                        <li>Services</li>
-                        <li>Team</li>
-                        <li>Contact</li>
+                <nav class="navbar">
+                    <ul id="list">
+                        <li><a href="#index.html">HOME</a></li>
+                        <li><a href="#about us"> About Us</a></li>
+                        <li><a href="#service">Services</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
-                    <button type="submit"><i class="fa fa-search"></i></button>
+                    <input type="text" placeholder="Search.."><i class="fa fa-search"></i></button>
             </div>
         </header>
         <main>
-            <div>
+            <!-- add background colour on the image -->
+            <div class="">
                 <img src="images/main-banner.jpg" alt="image of a logo">
                 <h1>Welcome</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quae amet voluptatem deleniti nihil nostrum porro sit necessitatibus asperiores perspiciatis. Voluptates eligendi sequi commodi consectetur! Pariatur corporis suscipit veritatis et.</p>
-                <button type="submit">Send</button>
+                <button type="submit">Connect with us &#9654;</button>
             </div>
             <div>
                 <img src="images/about-us.jpg" alt="image of about us">
-                <h2>About Us</h2>
+                <h2 id="about us">About Us</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga odio natus eaque enim nostrum sapiente aperiam atque sequi consectetur vel! Minima maxime veniam nesciunt consequatur vitae exercitationem minus assumenda laudantium.</p>
                 <p>Cum inventore eligendi et. Quae voluptates repellendus corporis, voluptas aliquid maiores? Expedita accusamus optio, itaque velit odio consequatur officiis exercitationem rerum maiores, saepe sed corporis cupiditate hic, rem commodi natus.</p>
             </div>
         </main>
         <section>
-            <h2>Our Services</h2>
+            <h2 id="service">Our Services</h2>
             <div>
                 <img src="images/digital.jpg" alt="image of digital">
                 <h3>Digital Transformation</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, minima cum! Mollitia autem porro temporibus molestias nostrum nisi! Eveniet veniam incidunt ab, ad inventore blanditiis quam enim sint nemo at.</p>
-                 <button type="submit">Send</button>
+                 <button type="submit">Digital Plans &#9654;</button>
                 
             </div>
             <div>
                 <img src="images/marketing.jpg" alt="image of a marketing">
                 <h3>Marketing</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi iste accusantium aliquid perferendis in molestiae quam fuga harum, odio cumque, eveniet rerum distinctio dolores consequuntur sapiente. Corrupti earum id fuga.</p>
-                    <button type="submit">Send</button>
+                    <button type="submit">Marketin Plans &#9654;</button>
                 
             </div>
             <div>
                 <h3>Video Production</h3>
                 <img src="images/video.jpg" alt="image of video">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad nobis itaque, possimus omnis, tenetur, ullam nihil officia mollitia facere nam neque. Omnis, tempore repellat ex vel illo dolore voluptatem consequatur.</p>
-                    <button type="submit">Send</button>
-                
+                    <button type="submit">Video Plans &#9654;</button>
             </div>
             <div>
                 <img src="images/web.jpg" alt="image of a web dev">
                 <h3>Web Development</h3> 
-                    <button type="submit">Send</button>
-            
+                    <button type="submit">Web Plans &#9654;</button>
             </div>
             <div>
                 <img src="images/print.jpg" alt="image of print">
                 <h3>Print</h3> 
-                <button type="submit">Send</button>
+                <button type="submit">Print Plans &#9654;</button>
               
             </div>
         </section>
@@ -81,11 +82,11 @@
                 <img src="images/vision.jpg" alt="image of vision">
                 <h3>Our Vision</h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque minus accusantium inventore. Amet alias doloremque quas aliquid et inventore saepe, beatae blanditiis excepturi ratione vel exercitationem neque minima animi placeat!</p>
-                <button type="submit">Send</button>
+                <button type="submit">Learn More &#9654;</button>
             
             </div>
             <div>
-               <h1>Our Team</h1>
+               <h1 id="team">Our Team</h1>
               <img src="images/john.jpg" alt="image of john">
               <h2>John Doe</h2>
              <h3>CEO and Co-owner</h3>
@@ -101,7 +102,7 @@
         </section>
         <section>
             <div>
-                <h1>Contact Us</h1>
+                <h1 id="contact">Contact Us</h1>
                 <h3>Send Message</h3>
             </div>
         </section>
@@ -115,19 +116,30 @@
                <br>
                <label for="message">Your Message</label>
                 <textarea id="message"></textarea>
+                </form>
                 <button value="send">Send</button>
-              </form>
           </div> 
         <section>
             <!-- Using grid to creat this table -->
-            <div> 
-                <h2>Hours Of operation</h2>
-                <div>Days</div>
-                <div>Monday-Friday</div>
-                <div>Saturday-Sunday</div>
-                <div>Hours</div>
-                <div>9 AM-6 PM</div>
-                <div>Close</div>
+            <div>
+                <table class="Table">
+            <tr>
+              <th>Days</th>
+              <th>hours</th>
+              <th>Age</th>
+            </tr>
+            <tr>
+              <td>Monday-Friday</td>
+              <td>9 AM-6PM</td>
+              <td>50</td>
+            </tr>
+            <tr>
+              <td>Saturday-Sunday</td>
+              <td>close</td>
+              <td>94</td>
+            </tr>
+</table>
+
             </div>
             <section>
                 <h2>Location</h2>
