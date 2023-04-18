@@ -47,7 +47,8 @@ background-color: #222;
 /* width: 60%; */
 margin: 0 auto;
 max-width: 850px;
-/* padding: 10px; */
+height: 520px;
+ padding: 4px; 
 /* height: 400px; */
 
 
@@ -57,11 +58,13 @@ max-width: 850px;
 .container { 
      /* width: 800px; */
      margin: 0 auto;
-	 padding: 10px;
+	 padding: 10px; 
+	 /* height: 400px; */
 
 } 
 .himage {
     background-color:#c78c06 ;
+	height: 180px;
 }
 .navbar {
 	display: flex;
@@ -71,7 +74,7 @@ li a {
 	display: flex;
 	justify-content: center;
 	justify-content: space-evenly;
-	padding: 10px;
+	padding: 19px;
 
 }
  
@@ -127,7 +130,7 @@ li a {
 
 .search input {
 	width: calc(100% - 20px);
-	padding: 5px;
+	padding: 12px;
 }
 .service {
 	background-color: #ffe6ac;
