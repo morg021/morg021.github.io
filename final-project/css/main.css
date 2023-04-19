@@ -49,13 +49,14 @@ body {
  /* font-family: 'Pacifico', cursive; 
 font-family: 'Roboto', sans-serif;
 font-family: 'Spectral', serif;  */
+font-size: 1.2rem;
 }
 .wrapper1 {
 background-color: #222; 
 /* width: 60%; */
 margin: 0 auto;
 max-width: 850px;
-height: 520px;
+height: 525px;
  padding: 4px; 
 /* height: 400px; */
 
@@ -152,22 +153,38 @@ li a {
 	background-color: #ffe6ac;
 	padding-bottom: 10px;
 }
+.containera {
+
+	padding-left: 10px;
+}
+.containera :nth-child(2) {
+	padding-bottom: 10px;
+}
+
+
 #imgservice {
 	width: 100%;
 	padding-bottom: 30px;
 }
 .button2 {
 	background-color: #2d2d2b;
-	padding: 30px;
+	padding: 40px;
 	border: none;
-	color: white;	
+	color: white;
+	width: 200px;	
+	margin: auto;
 }
 
 .marketing {
 	background-color:#ffe6ac;
-	
-	
+	padding-bottom: 10px;
 }
+	 .sec { 
+	padding-top: 10px;
+	margin: auto; 
+} 
+	
+	
 .imgmarketing {
 	width: 100%;
 	
@@ -175,29 +192,44 @@ li a {
 }
 .button3 {
 	background-color: #2d2d2b;
-	padding: 30px;
+	padding: 40px;
 	border: none;
 	color: white;	
-}
-.sec {
-	padding-top: 10px;
+	width: 200px;
 	margin: auto;
 }
+
+	/* .containerb {
+		padding-left: 10px;
+
+	}
+	
+
+	.containerb :nth-child(2) {
+		padding-bottom: 10px;
+	}
+	 */
+
+
+
 .product{
 	background-color: #ffe6ac;
-	
+	padding-bottom: 10px; 
+
 
 }
 .imgvideo {
 	width: 100%;
-	padding-bottom: 15px;
+	padding-bottom: 10px; 
 
 }
 .buttonplans {
 	background-color: #2d2d2b;
-	padding: 30px;
+	padding: 40px;
 	border: none;
 	color: white;
+	width: 200px;
+	margin: auto;
 
 }
 .sec2 {
@@ -211,6 +243,7 @@ li a {
 }
 .dev {
 background-color: #ffe6ac;
+padding: 10px;
 	
 }
 .buttondev {
@@ -218,15 +251,18 @@ background-color: #ffe6ac;
 	padding: 30px;
 	border: none;
 	color: white;
+	width: 200px;
+	margin: auto;
 }
 
 .imgprint{
 	width: 100%;
-	padding-bottom: 35px;
+	padding-bottom: 35px; 
 
 }
 .print {
 background-color: #ffe6ac;
+padding-bottom: 10px;
 	
 }
 .buttonprint {
@@ -234,6 +270,8 @@ background-color: #ffe6ac;
 	padding: 30px;
 	border: none;
 	color: white;
+	width: 200px;
+	margin: auto;
 
 }
 .sec3 {
@@ -244,6 +282,7 @@ background-color: #ffe6ac;
 	margin: 0 auto;
 	max-width: 900px;
 	padding: 10px;
+	
 }
 
 
@@ -255,23 +294,23 @@ background-color: #ffe6ac;
 	/* height: 200px; */
 	padding: 30px 0;
 	margin: 0 auto;
-	/* padding-left: 20px; */
-	/* padding-bottom: 20px; */
 	
 }
 .vision {
 
 	/* width: 60%; */
 	padding-top: 50px;
-	padding-bottom: 70px;
+	padding-bottom: 30px;
 	padding-left: 10px;
+	
+	
 }
 .buttonvision {
 	background-color: #2d2d2b;
-	padding: 30px;
-	border: 1px solid;
-	border-color: ;
-	color: white;
+	padding: 40px;
+	border: 2px solid;
+	border-color:  #ffe6ac;
+	width: 200px;
 }
 
 .wrapper4 {
