@@ -248,15 +248,16 @@ li a {
 }
 .dev {
 background-color: #ffe6ac;
-padding: 10px;
+/* padding: 10px; */
 margin-top: 10px;
 	margin-bottom: 10px;
+	padding-bottom: 10px;
 
 	
 }
 .buttondev {
 	background-color: #2d2d2b;
-	padding: 30px;
+	padding: 40px;
 	border: none;
 	color: white;
 	width: 200px;
