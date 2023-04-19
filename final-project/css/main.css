@@ -93,7 +93,8 @@ li a {
 		     /* width: 60%; */
 			margin: 0 auto;
 			max-width: 850px;
-			padding: 10px;
+			
+			
 }
 
 
@@ -115,14 +116,15 @@ li a {
 			
 			.welcome {
 				background-color: rgba(38, 36, 36, 0.6) ;
-				/* width: 60%; */
-				padding-top: 50px;
+				
+				 padding-top: 40px; 
 				padding-bottom: 50px;
 				padding-left: 10px;
 				color: white;
+				margin: 0 auto;
 				}
 				.welcome :nth-child(1) {
-					font-size: 4em;
+					font-size: 4em; 
 					font-weight: bold;
 						
 				}
@@ -152,8 +154,8 @@ li a {
 			
 
 .search input {
-	width: calc(100% - 20px);
-	padding: 12px;
+	width: calc(100% - 30px);
+	padding: 10px;
 	
 }
 
@@ -307,16 +309,21 @@ padding-bottom: 10px;
 	/* width: 60%; */
 	padding-top: 50px;
 	padding-bottom: 30px;
-	padding-left: 10px;
+	padding-left: 15px;
+	color: white;
 	
 	
 }
+
 .buttonvision {
 	background-color: #2d2d2b;
 	padding: 40px;
-	border: 2px solid;
+	border: 1px solid; 
 	border-color:  #ffe6ac;
-	width: 200px;
+	width: 240px;
+	height: 110px;
+	margin-top: 15px;
+	color: white;
 }
 
 .wrapper4 {
@@ -360,20 +367,23 @@ hr {
 
 
 #fullname, #email { 
-  width: 100%;
-    border-radius: 3px;
-    padding: auto;
-	padding-top: 10px;
-	padding-bottom: 10px;
+  width: 97%;
+  margin-top: 10px;
+    border-radius: 2px;
+    padding: 12px;
+	padding-top: 12px;
+	padding-bottom: 12px;
 	/* height: 30px; */
     border: 1px solid black;
   }
   #message { 
-   width: 100%;
+   width: 97%;
     height: 140px;
-    border-radius: 3px;
-    padding: auto;
+    border-radius: 2px;
+    padding: 10px;
     border: 1px solid black;
+	margin-top: 10px;
+	
     }
 	.send {
 		color: #c78c06;
@@ -443,3 +453,5 @@ iframe {
 
 
 /* #c78c06, #ffe6ac, #222 */
+
+
