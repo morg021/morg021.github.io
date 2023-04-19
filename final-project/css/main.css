@@ -57,7 +57,7 @@ background-color: #222;
 margin: 0 auto;
 max-width: 850px;
 height: 525px;
- padding: 4px; 
+ padding: 10px; 
 /* height: 400px; */
 
 }
@@ -454,4 +454,15 @@ iframe {
 
 /* #c78c06, #ffe6ac, #222 */
 
+@media screen and (min-width: 760px) and (max-width: 1200px){
+	.container1 {
+		display: flex; 
+	}
+     li a {
+		display: flex;
+		display: inline;
+
+	 }
+
+	}
 
