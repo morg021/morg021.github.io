@@ -178,11 +178,9 @@ li a {
 .marketing {
 	background-color:#ffe6ac;
 	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
-	 .sec { 
-	padding-top: 10px;
-	margin: auto; 
-} 
 	
 	
 .imgmarketing {
@@ -232,18 +230,18 @@ li a {
 	margin: auto;
 
 }
-.sec2 {
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
+ 
 .imgdev {
 	width: 100%;
 	padding-bottom: 35px;
-
+	
 }
 .dev {
 background-color: #ffe6ac;
 padding: 10px;
+margin-top: 10px;
+	margin-bottom: 10px;
+
 	
 }
 .buttondev {
@@ -324,14 +322,20 @@ padding-bottom: 10px;
 
 }
 .john1 {
-	background-color:#ffe6ac;
+	 background-color:#ffe6ac; 
 	margin-bottom: 10px;
 	margin-top: 10px;
+	padding-bottom: 10px;
 
 }
 hr {
     max-width: 840px;
 	border: 1px solid #c78c06;
+	
+}
+.containerb {
+	padding: 15px;
+	
 	
 }
 
