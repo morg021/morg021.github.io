@@ -1,5 +1,5 @@
 html, body, div, span, applet, object, iframe,
-/* h1, h2, h3, h4, h5, h6, */
+ h1, h2, h3, h4, h5, h6, 
  p, blockquote, pre,  
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -105,11 +105,7 @@ height: 180px;
 			 padding: 10px;
 			}
 
-  /* .wrapper3 {
-	
-	 margin: 0 auto;
- } */
-			
+ 
 .container1 {
 			 background-image: url('../images/main-banner.jpg');
 			background-repeat: no-repeat;
@@ -119,23 +115,32 @@ height: 180px;
 			padding: 60px 0;
 			margin: 0 auto;
 			
-		}
+    }
 			
-			.welcome {
-				background-color: rgba(38, 36, 36, 0.6) ;
-				
-				 padding-top: 20px; 
-				/* padding-bottom: 40px;
-				padding-left: 15px; */
-				padding: 15px;
-				color: white;
-				margin: 0 auto;
+.welcome {
+           background-color: rgba(38, 36, 36, 0.6) ;
+			 padding-top: 20px; 
+			 padding: 15px;
+			 color: white;
+			 margin: 0 auto;
 				}
-				.welcome :nth-child(1) {
-					font-size: 5rem; 
-					font-weight: bold;
+				/* .welcome :nth-child(1) */
+ h1	 {
+	 font-size: 5em; 
+	 font-weight: 3em;
+	 padding: 8px;
 						
-				}
+			}
+ h2 {
+	 font-size:3em ;
+	font-weight: 2em;
+	padding: 8px;
+	}
+h3 {
+ font-size: 2em;
+ font-weight: 2em;
+ padding: 8px;
+    }
 			
 			.button {
 				background-color: #c78c06;
