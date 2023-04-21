@@ -71,13 +71,19 @@ padding: 10px;
 
 .himage {
 background-color:#c78c06 ;
-height: 180px;
-} 
-.himage :nth-child(1) {
-	color: black;  
+height: 130px;
+}
+
+.current a {
+	background-color:#c78c06;
+	color: black;
+}
+
+/* .himage :nth-child(1) {
+	color: black;   
 	
 	
-} 
+} */
  .navbar  {
 		display: flex;
 		flex-direction: column;
@@ -470,15 +476,128 @@ iframe {
 
 /* #c78c06, #ffe6ac, #222 */
 
-@media screen and (min-width: 760px) and (max-width: 1200px){
-	.container1 {
-		display: flex; 
+@media screen and (min-width: 760px){
+
+
+	h1	 {
+		font-size: 4em; 
+		font-weight: 3em;
+		padding: 15px;
+						   
+			   }
+	h2 {
+		font-size:2em ;
+	   font-weight: 1.5em;
+	   padding: 4px;
+	   }
+	h3 {
+	font-size: 1.5em;
+	font-weight: 1.5em;
+	padding: 4px;
 	}
-     li a {
+
+
+	.wrapper1 {
+		max-width: 1200px;
+		}
+
+	.wrapper2 {
+	   max-width: 1200px;
+	}
+
+	.wrapper3 {
+		max-width: 1200px;		
+	}  
+
+	.wrapper4 {
+		max-width: 1200px;		
+	}
+
+	.wrapper5 {
+		max-width: 1200px;		
+	}
+
+	.navbar  {
 		display: flex;
-		display: inline;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+	}  
 
-	 }
+	.himage {
+		display: flex;
+	}
+
+	.about {
+		display: grid;
+		grid-template-columns: auto auto;
+		background-color: #ffe6ac;
+ 	}
+
+
+	.our-services {
+		display: grid;
+		grid-template-columns: repeat(6, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		gap: 20px;
 
 	}
 
+	.our-services .service {
+		grid-column: 1 / span 3;
+	}
+
+	.our-services .marketing {
+		grid-column: 4 / span 3;
+	}
+
+	.our-services .product {
+		grid-column: 1 / span 2;
+	}
+
+	.our-services .dev {
+		grid-column: 3 / span 2;
+	}
+
+	.our-services .print {
+		grid-column: 5 / span 2;
+	}
+
+
+	.dev {
+		margin-top: 0;
+			margin-bottom: 0;
+			padding-bottom: 10px;
+		
+			}
+			.grid {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				grid-template-rows: 1fr / span 4; 
+				
+			}
+
+			.item-1 {
+				order: 1;
+			}
+
+			.item-1 {
+				grid-column: 1 / span 3;
+			}
+			#fullname, #email { 
+				width: 90%;
+			
+				
+			} 
+				 
+				 #message { 
+					width: 90%;
+					
+					}
+					
+        .flex {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-template-rows: 1fr 1fr;
+		}
+	}
