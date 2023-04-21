@@ -303,10 +303,7 @@ padding-bottom: 10px;
 	margin: auto;
 
 }
- /* .sec3 {
-	padding-top: 10px;
-	padding-bottom: 15px;
-}  */
+ 
   .wrapper3 {
 	margin: 0 auto;
 	max-width: 900px;
@@ -589,22 +586,13 @@ iframe {
 			#fullname, #email { 
 				width: 90%;
 			
-				
-			} 
+				} 
 				 
 				 #message { 
 					width: 90%;
 					
 					}
 					
-        /* .flex {
-			flex-direction: column-reverse;
-			flex-direction: row-reverse;
-		}
-		.flex
-		.containerb {
-			padding: 5px;
-        } */
 		.vision {
              padding: 20px;
 			margin-left: 60px;
@@ -614,8 +602,7 @@ iframe {
 			display: flex;
 			/* flex-wrap: wrap;  */
 		flex-direction: row-reverse;
-		/* flex-direction: column; */
-		/* width: 50%; */
+		
 		
 		  }
       }
