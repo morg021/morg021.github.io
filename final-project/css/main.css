@@ -152,7 +152,7 @@ height: 130px;
 			.button {
 				background-color: #c78c06;
 				padding: 45px;
-				width: 250px;
+				width: 240px;
 				
 				border: none;
 				}
@@ -195,14 +195,14 @@ height: 130px;
 
 #imgservice {
 	width: 100%;
-	padding-bottom: 30px;
+	/* padding-bottom: 30px; */
 }
 .button2 {
 	background-color: #2d2d2b;
 	padding: 40px;
 	border: none;
 	color: white;
-	width: 200px;	
+	width: 100%;	
 	margin: auto;
 }
 
@@ -224,7 +224,7 @@ height: 130px;
 	padding: 40px;
 	border: none;
 	color: white;	
-	width: 200px;
+	width: 100%;
 	margin: auto;
 }
 
@@ -257,14 +257,14 @@ height: 130px;
 	padding: 40px;
 	border: none;
 	color: white;
-	width: 200px;
+	width: 100%;
 	margin: auto;
 
 }
  
 .imgdev {
 	width: 100%;
-	padding-bottom: 35px;
+	/* padding-bottom: 35px; */
 	
 }
 .dev {
@@ -280,13 +280,13 @@ margin-top: 10px;
 	padding: 40px;
 	border: none;
 	color: white;
-	width: 200px;
+	width: 100%;
 	margin: auto;
 }
 
 .imgprint{
 	width: 100%;
-	padding-bottom: 35px; 
+	/* padding-bottom: 35px;  */
 
 }
 .print {
@@ -296,10 +296,10 @@ padding-bottom: 10px;
 }
 .buttonprint {
 	background-color: #2d2d2b;
-	padding: 30px;
+	padding: 40px;
 	border: none;
 	color: white;
-	width: 200px;
+	width: 100%;
 	margin: auto;
 
 }
@@ -484,7 +484,7 @@ iframe {
 	   padding: 8px;
 	   }
 	h3 {
-	font-size: 2em;
+	font-size: 1.8em;
 	font-weight: 2em;
 	padding: 8px;
 	}
@@ -601,8 +601,30 @@ iframe {
 		.team-flex {
 			display: flex;
 			/* flex-wrap: wrap;  */
-		flex-direction: row-reverse;
+		flex-direction: column;
+		  }
+
 		
-		
+
+		.john1 {
+			display: flex;
+			flex-direction: row;
+
+			margin-bottom: 0;
+    		margin-top: 10px;
+    		padding-bottom: 0;
+		}
+
+		.bob {
+			display: flex;
+			flex-direction: row-reverse;
+			margin-bottom: 0;
+    		margin-top: 0;
+    		padding-bottom: 0;
+		}
+
+		  .marketing {
+			margin-top: 0;
+			margin-bottom: 0;
 		  }
       }
